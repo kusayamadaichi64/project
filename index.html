@@ -8,151 +8,182 @@
     <meta name="descripsion" content="草山">
     <link rel="stylesheet" href="css/ipone.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script type="text/javascript" src="tec.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
       <div class="pcrogo">
-        <img src="img/rogo.png">
+        <img src="img/newrogo.png">
       </div>
       <div class="iPhonerogo">
         <img src="img/newrogo.png">
       </div>
-       <div class="tel">
-         <h5>施術のご予約はLINEまたはお電話で：AM１０時〜PM８時（定休日：木、土）</h5>
-          <h2> TEL.080-3002-8277</h2>
-          <div class="line">
-            <div class="yoyaku">
-              <h4>LINEからも予約できます→→</h4>
-            </div>
-            <div class="lineimg">
-              <a href="https://www.linebiz.com/jp/login/" target="blank">
-              <img src="img/line.png" target="blank" ></a>
-            </div>
-          </div>
-       </div>
-       <div class="hamburger-menu">
-        <input type="checkbox" id="menu-btn-check">
+      <div class="hamburger-menu">
+        <input type="checkbox" id="menu-btn-check" name="check3">
         <label for="menu-btn-check" class="menu-btn"><span></span></label>
         <div class="menu-content">
-          <ul>
-              <li>
-                  <a href="#title">トップページ</a>
-              </li>
-              <li>
-                  <a href="">お客様の声</a>
-              </li>
-              <li>
-                  <a href="#">マグネット紹介</a>
-              </li>
-              <li>
-                <a href="#">施術者紹介</a>
-              </li>
-              <li>
-                <a href="#kuruma">アクセス</a>
-              </li>
-               <li>
-                 <a href="#cafe">カフェ紹介</a>
-               </li>
-               <li>
-                 <a href="#">お問い合わせ</a>
-               </li>
+          <ul class="abc">
+            <li>
+              <a href="#title">当店について</a>
+            </li>
+            <li>
+              <a href="#koe">お客様の声</a>             
+            </li>
+            <li>
+              <a href="#magnet">マグネット紹介</a>
+            </li>
+            <li>
+              <a href="#">施術者紹介</a>
+            </li>
+            <li>
+              <a href="#cafe">カフェ紹介</a>
+            </li>
+            <li>
+              <a href="#kuruma">アクセス</a>
+            </li>
+            <li>
+              <a href="#otoiawase">お問い合わせ</a>
+            </li>
           </ul>
+        </div>
       </div>
-    </div>
     </header>
-    <!-- <nav id="main-bar">
-      <ul class="botan">
-        <li>
-          <a href="#title">トップページ</a>
-        </li>
-        <li>
-          <a href="">お客様の声</a>
-        </li>
-        <li>
-          <a href="">マグネット紹介</a>
-        </li>
-        <li>
-          <a href="">施術者紹介</a>
-        </li>
-        <li>
-          <a href="#kuruma">アクセス</a>
-        </li>
-        <li>
-          <a href="#cafe">カフェ紹介</a>
-        </li>
-        <li>
-          <a href="#">お問い合わせ</a>
-        </li>
-      </ul>
-    </nav> -->
     <div class="main">
-      <!-- 感情を味わいきる
+      <div class="syoukai">
+        当院の整体は、
+        <br> <h3>「マグネット施術」と「骨格調整」</h3>
+        が基本です。
+      </div> 
+      
+      <h2><a id="title">当店について</a></h2>
+      <p>
         
-何度も浮かぶ感情は、その感情に集中して、その感情を味わい続けると、いつか消える。
-
-怒りの感情も、永遠には続かない。
-感情を忘れようとしたり、無いものにしようとすると、何かの拍子に思い出し、味わうことになる。
-
-なので、感情が湧いてきたら、その感情に向き合って、その気持ちを味わい続けると、いつしか消えていく。ポイントは、消えるまで味わうということ。
-
-すると、その感情を何度も思い出さなくて済むようになる。 -->
+        「マグネット施術」はあまり馴染みがないと思いますが、実は特許を取得した、世界最先端のインナーマッスルの歪みを改善する生体磁気マグネットです。<br><br>
+        このマグネットを使って、通常の手による施術では届かない深層深部（インナーマッスル）のゆがみ、こり固まりリンパ・血液・脳脊髄液の流れを改善し、
+        神経の流れをよくしていきます。
+        <br><br>
+        
+        「骨格調整」とは、骨を“直接動かす”施術ではなく「骨格を含む体を矯正するために、筋肉を施術する」ものです。
+        実は、施術することでお客様の筋肉が反応しています。その施術に応えてくれているのですが、その反応を確認しながら、より良い調整をして行くことで、正しいバランスに導いて行きます。<br><br>
+        骨格調整は首、肩、腰、背中などのこりや痛みに効果的です。また小顔効果も期待できます。（PH）
+      </p>
+      <p>
+        本気で身体を変えていくには。
+        
+        ↓
+        <br>
+        <br>
+        
+        陶芸の粘土をイメージして下さい。型を作る前に菊練りと言って、粘土を柔らかくする作業があります。菊練りしてすぐなら形成も簡単ですが、時間が立ってしまうと硬く戻ってしまい、またもう一度、菊練りしなくてはなりません。身体もこれと同じです。週に一度の施術だと、前回の柔らかさが残っているので変化して行きやすいのですが、月に一度だと硬くなってしまい、再び変化させるのに時間がかかってしまいます。<br><br>
+        
+        ①最初の1ヶ月くらいで、長年の身体の悪いクセを取り除く。
+        ②その後、良い身体のクセを定着させる時期になります。これを良いペースで行うことで、「良い身体のクセ」を「自分の当たり前」と身体が覚えてくれるようになります。
+        ③その後に、月一度くらいのメンテナンスを継続すると、身体が硬くなりにくく、さらに奥の奥を緩めていくことができます。
+        <br><br>
+        つまり、身体を大きく変化させるなら、なるべく時間を空けずに来て頂くことが必要となります。
+        
+      </p>
+      <h2><a id="magnet"></a></h2>
+      <p>
+        「マグネット療法」インナーマッスルの奥から歪みを取り除く最先端療法です。磁気ネックレス、磁気ブレスレット、磁気テープ等はとても良く知られていますね。<br><br>
+        
+        私たちの身体には、微弱な電気が流れています。電気があれば、必ず磁場が存在し、それぞれの細胞が持ってる固有の磁場があります。（心臓の電気を記録したものが心電図、磁気を記録したものを心磁図といいます）
+        <br><br>
+        また現代社会は様々な電磁波に囲まれた生活をしています。これらの磁気の乱れが、私たちの身体にある本来の磁場（生体磁気）を狂わせ、症状を複雑にします。このゆがみを取ることの出来る磁気は、今まで全くありませんでした。マグネットにはこの深層神経に届き、神経の流れを良くしていきます。
+        
+      </p>
       <h2><a id="cafe">カフェ紹介</a></h2>
-
-      <p><h3>ゴロニャン</h3>
-猫と、新しい雑貨に会えるカフェです。
-私はここの雑貨が好きです！
-作家さんの思いの込もった作品が綺麗に並んでいて、見ていて飽きません。
-いつ行っても新しいものがあります。
-子猫に会えるかも？
-定休日　木曜日、日曜日</P>
-
-
-<p><h3>つばめカフェ</h3> 
-ランチとスイーツのお店です。
-師範の免許を持っている店主の作るスイーツがおすすめ！
-店内がとても可愛いです。
-木金の昼のみ営業。</p>
-
-<p><h3>メグさん</h3>
-定食と、美味しいビールのお店。
-一品料理を300円プラスで定食に出来ます。
-この一品料理がいろいろ美味しい。
-目移りします。
-店内もおしゃれな空間です。
-金土日月営業。</p>
-
-<p><h3>みかんの木</h3>
-天気のいい日は外で食べるのも。
-お庭のテラス席もあるカフェです。
-台湾の丼や、スイーツも食べられます。
-おにぎりセットなどもあり、小腹が空いた時にも。
-定休日　火曜日</p>
-
-
-<p>
-  <h3>かやの</h3>
-  そばとうどんのお店
-  昼は500円からランチができます。
-  夜はいろんなメニューがあり、楽しく飲めます。
-  定休日　
-
-</p>
-<P>
-  ここからはまだです…
-  （遊んで帰るなら）
-  
-  史跡勝坂遺跡公園
-  
-  縄文時代の住居跡
-
-</P>
-
+      
+      <p>
+        <div class="gazou">
+          <img src="img/neko.png">
+          <img src="img/nixyan.png">
+        </div>
+        <h3>ゴロニャン</h3>
+        猫と、新しい雑貨に会えるカフェです。
+        私はここの雑貨が好きです！
+        作家さんの思いの込もった作品が綺麗に並んでいて、見ていて飽きません。
+        いつ行っても新しいものがあります。
+        子猫に会えるかも？
+        定休日　木曜日、日曜日</P>
+        
+        
+        <p>
+          <div class="gazou">
+            <img src="img/53033.png">
+            <img src="img/tubame.png">
+          </div>
+          <h3>つばめカフェ</h3> 
+          ランチとスイーツのお店です。
+          師範の免許を持っている店主の作るスイーツがおすすめ！
+          店内がとても可愛いです。
+          木金の昼のみ営業。</p>
+          
+          <p><h3>メグさん</h3>
+            定食と、美味しいビールのお店。
+            一品料理を300円プラスで定食に出来ます。
+            この一品料理がいろいろ美味しい。
+            目移りします。
+            店内もおしゃれな空間です。
+            金土日月営業。</p>
+            
+            <p><h3>みかんの木</h3>
+              天気のいい日は外で食べるのも。
+              お庭のテラス席もあるカフェです。
+              台湾の丼や、スイーツも食べられます。
+              おにぎりセットなどもあり、小腹が空いた時にも。
+              定休日　火曜日</p>
+              
+              
+              <p>
+                <h3>かやの</h3>
+                そばとうどんのお店
+                昼は500円からランチができます。
+                夜はいろんなメニューがあり、楽しく飲めます。
+                定休日
+                
+              </p>
+              <P>
+                ここからはまだです…
+                （遊んで帰るなら）
+                
+                史跡勝坂遺跡公園
+                
+                縄文時代の住居跡
+                
+              </P>
+              <div class="tel">
+                <h2><a id="otoiawase">お問い合わせ</a></h2>
+                <h5>施術のご予約はLINEまたはお電話で：AM１０時〜PM８時（定休日：木、土）</h5>
+                 <h3> TEL.080-3002-8277</h3>
+                 <div class="line">
+                   <div class="yoyaku">
+                     <h4>LINEからも予約できます→→</h4>
+                   </div>
+                   <div class="lineimg">
+                     <a href="https://www.linebiz.com/jp/login/" target="blank">
+                     <img src="img/line.png" target="blank" ></a>
+                   </div>
+                 </div>
+              </div>
+              
 <h2><a id="kuruma">アクセス</a></h2>
 <p>相武台下駅から徒歩５分</p>
 <p> 車１台駐車可能
 </p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.4323944172593!2d139.38667061528332!3d35.49358504784751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ffb439d9fdad%3A0x8b061a39b9f4f6c7!2z44CSMjUyLTAzMjYg56We5aWI5bed55yM55u45qih5Y6f5biC5Y2X5Yy65paw5oi477yR77yY77yZ77yV4oiS77yR77yS!5e0!3m2!1sja!2sjp!4v1626508345509!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103949.29881251349!2d139.38807192021108!3d35.49400072810738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ffb5b299bf2d%3A0x5bbed325d3201abf!2z6Yej55O25LiL5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1628575613249!5m2!1sja!2sjp" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 <footer class="footer"></footer>
+    <script>
+    $(function(){
+      // $('#title').click(function(){
+        //     $('[id="menu-btn-check"]').prop('checked', true);
+        // });
+        $('#title').click(function(){
+            $('[id="menu-btn-check"]').prop('checked', false);
+          });
+      });
+      </script>
   </body>
 </html>

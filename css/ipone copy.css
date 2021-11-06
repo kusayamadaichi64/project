@@ -112,11 +112,13 @@
   left: 0;/*メニューを画面内へ*/
 }
 
+#menu-btn-check:checked ~ .menu-content {
+  left: 0;/*メニューを画面内へ*/
+}
+
 .syoukai{
   margin: 0%;
   text-align: center;
-  padding: 20px;
-  background-color: beige;
 }
 
 .main h2{
@@ -137,10 +139,17 @@ main img{
 
 header img{
   display: inline;
-  
+
   margin-top: 0px;
   margin-left: 0px;
+  /* padding-right: 30px;
+  width: 100%; */
 }
+
+header{
+  margin-bottom: 30px;
+}
+
 header h5{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -151,23 +160,20 @@ header h5{
   margin-left: 10px;
 }
 
-.gazou img{
-  max-width: 100%;
-}
-.main{
+p{
+  margin-top: 60px;
   margin-left: 10vw;
   margin-right: 10vw;
 }
 }
 @media screen and (max-width:380px){
-header img{
-    width: 270px;
+  header img{
+    width: 240px;
     height: 78px;
   }
   .line img{
-    width: 45px;
+    width: 44px;
     height: 45px;
     margin-top: 33px;
   }
-
 }
